@@ -114,5 +114,12 @@
 		</dependency>
 
 	</dependencies>
+	<distributionManagement>
+	   	<repository>
+	    	<id>github</id>
+			<name>GitHub azuzi did-common-java</name>
+			<url>https://maven.pkg.github.com/azuzi/did-common-java</url>
+   		</repository>
+   </distributionManagement>
 
 </project>
