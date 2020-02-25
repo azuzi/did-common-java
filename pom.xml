@@ -4,7 +4,7 @@
 	<groupId>decentralized-identity</groupId>
 	<artifactId>did-common-java</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.3-SNAPSHOT</version>
+	<version>0.1.4-SNAPSHOT</version>
 	<name>did-common-java</name>
 
 	<issueManagement>
@@ -78,6 +78,9 @@
        				<checkModificationExcludes>
         	  		<checkModificationExclude>dependency-reduced-pom.xml</checkModificationExclude>
     		   		</checkModificationExcludes>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+          			<tagNameFormat>@{project.version}</tagNameFormat>
+          			<releaseProfiles>release</releaseProfiles>
  			   	</configuration>
  			</plugin>
 		</plugins>
