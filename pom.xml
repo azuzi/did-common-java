@@ -4,7 +4,7 @@
 	<groupId>decentralized-identity</groupId>
 	<artifactId>did-common-java</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.2</version>
 	<name>did-common-java</name>
 
 	<issueManagement>
@@ -16,7 +16,7 @@
 		<url>https://github.com/azuzi/did-common-java</url>
 		<connection>scm:git:git://github.com/azuzi/did-common-java.git</connection>
 		<developerConnection>scm:git:git@github.com:azuzi/did-common-java.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>did-common-java-0.1.2</tag>
   </scm>
 
 	<properties>
