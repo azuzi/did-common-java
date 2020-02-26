@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.1.6
+## 0.1.7-SNAPSHOT
 * Change loog release plugin [ab7f1df](ab7f1df13705a7fb1cc13057b9c91626e72fc79f)
 * version 0.1.5 [2f7818b](2f7818ba050dcc90999f34a9e3352f53e79c161e)
 * version 0.1.5 [30be8e0](30be8e09753600d17ba9406a34e3241a14e4154d)
