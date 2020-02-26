@@ -4,7 +4,7 @@
 	<groupId>decentralized-identity</groupId>
 	<artifactId>did-common-java</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.6-SNAPSHOT</version>
+	<version>0.1.5-SNAPSHOT</version>
 	<name>did-common-java</name>
 
 	<issueManagement>
@@ -83,30 +83,6 @@
           			<releaseProfiles>release</releaseProfiles>
  			   	</configuration>
  			</plugin>
-			 <plugin>
-				<groupId>info.plichta.maven.plugins</groupId>
-				<artifactId>git-changelog-maven-plugin</artifactId>
-				<version>0.5.1</version>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-release-plugin</artifactId>
-				<version>3.0.0-M1</version>
-				<configuration>
-					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<pomFileName>pom.xml</pomFileName>
-					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals>
-					<completionGoals>git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md"</completionGoals>
-				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-scm-plugin</artifactId>
-						<version>1.8.1</version>
-					</dependency>
-				</dependencies>
-			</plugin>
 		</plugins>
 
 	</build>
